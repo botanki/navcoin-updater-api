@@ -38,8 +38,6 @@ function getNav() {
     btc = res[0].price_btc;
     usd = res[0].price_usd;
     usd = usd.substr(0,5);
-    console.log(usd);
-    console.log(btc);
   }).catch(console.error);
 }
 
